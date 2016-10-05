@@ -3,10 +3,15 @@ Machine Learning Exercises
 Coursera上斯坦福大学的机器学习编程作业
 
 ### 1. [machine-learning-ex1][1]
+ - 线性回归
+ - 梯度下降
+ - 正规方程
 ![machine-learning-ex1][1.1]
 
 
 ### 2. [machine-learning-ex2][2]
+ - 逻辑回归
+ - 正则化
 ![machine-learning-ex1][2.1]
 
 
