@@ -31,4 +31,4 @@ Coursera上斯坦福大学的机器学习编程作业
   
   [3]:https://github.com/lawlite19/MachineLearningEx/blob/master/images/machine-learning-ex3_01.png
  
-  [3.1]:./images/machine-learning-ex3_01.png "machine-learning-ex3_01.png"
+  [3.1]: ./images/machine-learning-ex3_01.png "machine-learning-ex3_01.png"
