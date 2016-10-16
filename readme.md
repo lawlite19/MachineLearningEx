@@ -24,8 +24,8 @@ Coursera上斯坦福大学的机器学习编程作业
 ![machine-learning-ex4][4.1]
   
 ### 5. [machine-learning-ex5][5]
- - 学习曲线
- - 验证集
+ - 学习曲线  
+ - 验证集   
 ![machine-learning-ex5][5.1]
   
   [1]:https://github.com/lawlite19/MachineLearningEx/tree/master/machine-learning-ex1
