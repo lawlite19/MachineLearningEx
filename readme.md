@@ -27,6 +27,13 @@ Coursera上斯坦福大学的机器学习编程作业
  - 学习曲线  
  - 验证集   
 ![machine-learning-ex5][5.1]
+
+### 6. [machine-learning-ex6][6]
+ - 支持向量SVM  
+ - 高斯核函数
+ - 线性核函数
+ - 垃圾邮件分类
+![machine-learning-ex6][6.1]
   
   [1]:https://github.com/lawlite19/MachineLearningEx/tree/master/machine-learning-ex1
   [1.1]: ./images/machine-learning-ex1_01.png "machine-learning-ex1_01.png"
@@ -42,3 +49,6 @@ Coursera上斯坦福大学的机器学习编程作业
   
   [5]:https://github.com/lawlite19/MachineLearningEx/blob/master/machine-learning-ex5
   [5.1]: ./images/machine-learning-ex5_01.png "machine-learning-ex5_01.png"
+  
+  [6]:https://github.com/lawlite19/MachineLearningEx/blob/master/machine-learning-ex6
+  [6.1]: ./images/machine-learning-ex6_01.png "machine-learning-ex6_01.png"
