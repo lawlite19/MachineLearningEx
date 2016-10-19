@@ -35,6 +35,13 @@ Coursera上斯坦福大学的机器学习编程作业
  - 垃圾邮件分类
 ![machine-learning-ex6][6.1]
   
+### 7. [machine-learning-ex7][7]
+ - k-means
+ - 降维PCA（主成分分析）
+ 
+![machine-learning-ex7][7.1]
+
+  
   [1]:https://github.com/lawlite19/MachineLearningEx/tree/master/machine-learning-ex1
   [1.1]: ./images/machine-learning-ex1_01.png "machine-learning-ex1_01.png"
   
@@ -52,3 +59,6 @@ Coursera上斯坦福大学的机器学习编程作业
   
   [6]:https://github.com/lawlite19/MachineLearningEx/blob/master/machine-learning-ex6
   [6.1]: ./images/machine-learning-ex6_01.png "machine-learning-ex6_01.png"
+  
+  [7]:https://github.com/lawlite19/MachineLearningEx/blob/master/machine-learning-ex7
+  [7.1]: ./images/machine-learning-ex7_01.png "machine-learning-ex7_01.png"
