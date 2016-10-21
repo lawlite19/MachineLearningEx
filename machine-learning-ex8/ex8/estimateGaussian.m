@@ -21,7 +21,8 @@ sigma2 = zeros(n, 1);
 %               should contain variance of the i-th feature.
 %
 
-
+mu = mean(X,1)';            %每列的平均值，转为列
+sigma2 = ((m-1)*var(X)/m)'; %var(X)求每列的方差,这里需要注意m的关系
 
 
 
