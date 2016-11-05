@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/bob/ontologies/2016/10/untitled-ontology-12#"
+     xml:base="http://www.semanticweb.org/bob/ontologies/2016/10/untitled-ontology-12"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bob/ontologies/2016/10/untitled-ontology-12"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#eat -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#eat"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#eated -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#eated"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#is_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#is_part_of"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#mainEat -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#mainEat">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#eat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#nurual_enemy_is -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#nurual_enemy_is">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Anamial -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Anamial"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Branch -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Branch">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Plant"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#is_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Tree"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Carnivore -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Carnivore">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Anamial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#mainEat"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Anamial"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Giraffe -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Giraffe">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Anamial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#eat"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Leaf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Herbivore -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Herbivore">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Anamial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#eat"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Plant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Leaf -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Leaf">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Plant"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#is_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Branch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Lion -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Lion">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Anamial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#eat"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Herbivore"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Plant -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Plant"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Tree -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Tree">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Plant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Wolf -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Wolf">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Anamial"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Herbivore -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2002/07/owl#Herbivore"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
