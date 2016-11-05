@@ -41,6 +41,12 @@ Coursera上斯坦福大学的机器学习编程作业
  
 ![machine-learning-ex7][7.1]
 
+### 8. [machine-learning-ex8][8]
+ - 异常检测（高斯分布）
+ - 协同过滤
+ 
+![machine-learning-ex8][8.1]
+
   
   [1]:https://github.com/lawlite19/MachineLearningEx/tree/master/machine-learning-ex1
   [1.1]: ./images/machine-learning-ex1_01.png "machine-learning-ex1_01.png"
@@ -62,3 +68,6 @@ Coursera上斯坦福大学的机器学习编程作业
   
   [7]:https://github.com/lawlite19/MachineLearningEx/blob/master/machine-learning-ex7
   [7.1]: ./images/machine-learning-ex7_01.png "machine-learning-ex7_01.png"
+  
+  [8]:https://github.com/lawlite19/MachineLearningEx/blob/master/machine-learning-ex8
+  [8.1]: ./images/machine-learning-ex8_01.png "machine-learning-ex8_01.png"
